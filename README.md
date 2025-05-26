@@ -1,10 +1,8 @@
 # MagPl5
 
-*Inspired by "magpie", short for **Modding Application Game Engine Injector 5***
+*Inspired by "magpie", short for **Modding Application Game Engine Patch Injector 5***
 
-MagPl5 is an engine-independent C++ wrapper designed to bring powerful Lua 5 scripting and runtime modding capabilities to custom game engines with minimal integration effort.
-
-Whether you're developing a bespoke game engine or retrofitting modding support into an existing C++ project, MagPl5 acts as a dynamic middleware layer, allowing developers to expose, override, and extend engine functionality via Lua scripts — all at runtime.
+Magpi5 (Modding Application Game Engine Patch Injector 5) is a Lua 5.x-based C++ runtime wrapper that injects modding capabilities into custom C++ game engines. It allows developers to expose engine functions and systems to Lua scripts using a flexible configuration system (whitelist or blacklist), enabling runtime monkey patching and modification with minimal integration overhead.
 
 ---
 
